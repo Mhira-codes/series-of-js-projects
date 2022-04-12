@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+/* changing background color */
+#contain {
+    width: 30%;
+    height: 50vh;
+    background-color: sienna;
+    box-sizing: border-box;
+   
+}
+#contain button{
+    width: 150px;
+    height: 50px;
+    margin: 140px 0px 0px 120px;
+  box-shadow: 3px 2px 4px lightsteelblue;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  color: darkslategray;
+  font-weight: bold;
+  font-size: 18px;  
+}
+/* Generating quotes */
+#contain1{
+    width: 30%;
+    height: 50vh;
+    background-color: lightslategray;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.main{
+    display:flex;
+
+}.quotes{
+    width: 90%;
+    height: 46vh;
+    background-color: lightpink;
+    box-sizing: border-box;
+    margin: 13px 20px ;
+
+}
+.quotes button{
+    width: 170px;
+    height: 50px;
+    margin: 15px 0px 0px 96px;
+  box-shadow: 3px 2px 4px darkolivegreen;
+  background-color: darkcyan;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;  
+}
+.contain1 button::before{
+    margin: 15px 0px 0px 30px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    color: darkslategray;
+    font-weight: bold;
+  
+    
+}
+hr{
+    
+    width: 70px;
+    height: 10px;
+    margin-left: 150px;
+    box-shadow: 2px 3px 7px rgb(2, 5, 5) ;
+ 
+}
+/* Message Delivery */
+.contain2{
+    width: 30%;
+    height: 50vh;
+    background-color: rgb(158, 137, 137);
+    box-sizing: border-box;
+    margin: 10px;
+}
+.message-box
+{
+    width: 90%;
+    height: 46vh;
+    background-color: rgb(224, 212, 190) ;
+    box-sizing: border-box;
+    margin: 13px 20px ;
+
+}
+.message-box h2{
+    padding:10px;
+    text-align: center;
+    color: darkslategray;
+    letter-spacing: 1.2px;
+}
+input{
+    width: 95%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 30px 10px 10px 10px ;
+    box-shadow: 2px 2px 2px lightslategray;
+    border: none;
+    outline: none;
+}
+ .message-box button{
+    width: 150px;
+    height: 50px;
+    margin:10px  0px 0px 100px;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid lightslategray;
+    box-shadow: 2px 3px 5px darkslategray;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+/* COUNTER */
+
+.sub{
+ width: 25%;
+height: 50vh;
+background-color: firebrick;
+border: 2px solid lightseagreen ;
+margin-left: 50px;
+margin-top: 20px;
+text-align: center;
+
+
+   
+}
+.counter-button{
+width: 200px;
+height: 50px;
+margin: 10px;
+font-size: 20px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+
+}
+h2{
+margin-top: 10px;
+font-size: 25px;
+}
+
