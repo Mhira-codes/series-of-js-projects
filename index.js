@@ -1,6 +1,6 @@
 // Changing Background
 
-let background = document.getElementById("container")
+let background = document.getElementById("contain")
 let colors =["red","blue","dark","pink","yellow","purple","black","gray"]
 
 function changeBackground(){
@@ -18,7 +18,8 @@ let quotesInPara = document.getElementById("Quotes")
 function generateQuotes(){
     let getQuoteRandomly = Math.floor(Math.random()*4)
     for(let i =0; i< listOfQuotes.length;i++){
-        quotesInPara.textContent= "---" + listOfQuotes[ getQuoteRandomly] + "---"
+        quotesInPara.textContent= "--- " + listOfQuotes[ getQuoteRandomly] + " ---"
+        // quotesInPara.textContent= `&#10078;` + listOfQuotes[ getQuoteRandomly] + ${&#10078;}
      
         
     }
@@ -26,7 +27,7 @@ function generateQuotes(){
 // MESSAGE DELIVERY
  let submitText = document.getElementById("message")
  let inputElement = document.getElementById("textinput")
- let sumbitButton = document.getElementById("btn")
+
  
  function getText(){
     let newMessage = inputElement.value

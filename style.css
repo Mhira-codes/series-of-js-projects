@@ -1,19 +1,21 @@
-*{
+/* *{ 
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-}
+ } */
 /* changing background color */
-#contain {
+/* #contain { 
     width: 30%;
     height: 50vh;
     background-color: sienna;
     box-sizing: border-box;
+    margin: 13px 20px ;
    
-}
-#contain button{
-    width: 150px;
+}*/
+
+/* #contain button{ 
+    width: 170px;
     height: 50px;
     margin: 140px 0px 0px 120px;
   box-shadow: 3px 2px 4px lightsteelblue;
@@ -22,27 +24,18 @@
   color: darkslategray;
   font-weight: bold;
   font-size: 18px;  
-}
+}*/
 /* Generating quotes */
-#contain1{
-    width: 30%;
-    height: 50vh;
-    background-color: lightslategray;
-    box-sizing: border-box;
-    margin: 5px;
-}
-.main{
-    display:flex;
 
-}.quotes{
-    width: 90%;
+/* .quotes{ 
+    width: 30%;
     height: 46vh;
     background-color: lightpink;
     box-sizing: border-box;
     margin: 13px 20px ;
 
-}
-.quotes button{
+}*/
+/*.quotes button{
     width: 170px;
     height: 50px;
     margin: 15px 0px 0px 96px;
@@ -53,8 +46,8 @@
   color: white;
   font-weight: bold;
   font-size: 18px;  
-}
-.contain1 button::before{
+}*/
+/* .contain1 button::before{
     margin: 15px 0px 0px 30px;
 }
 p{
@@ -65,24 +58,24 @@ p{
     font-weight: bold;
   
     
-}
-hr{
+} */
+/*hr{
     
     width: 70px;
     height: 10px;
     margin-left: 150px;
     box-shadow: 2px 3px 7px rgb(2, 5, 5) ;
  
-}
+} */
 /* Message Delivery */
-.contain2{
+/* .contain2{ 
     width: 30%;
     height: 50vh;
     background-color: rgb(158, 137, 137);
     box-sizing: border-box;
     margin: 10px;
-}
-.message-box
+ } */
+/* .message-box 
 {
     width: 90%;
     height: 46vh;
@@ -118,28 +111,23 @@ input{
     background-color: gray;
     color: white;
     font-weight: bold;
-}
+}*/
 /* COUNTER */
 
-.sub{
+/* .sub{ 
  width: 25%;
 height: 50vh;
 background-color: firebrick;
 border: 2px solid lightseagreen ;
 margin-left: 50px;
 margin-top: 20px;
-text-align: center;
-
-
-   
-}
+text-align: center;  
+ } */
 .counter-button{
-width: 200px;
-height: 50px;
-margin: 10px;
+
 font-size: 20px;
 }
-h1{
+/* h1{ 
     font-size: 60px;
     margin-bottom: 10px;
 
@@ -147,5 +135,35 @@ h1{
 h2{
 margin-top: 10px;
 font-size: 25px;
+/* } */
+
+.col-md-6.col-one.d-flex.align-items-center.justify-content-center.mt-5 {
+    background-color: sienna;
+    min-height: 30vh;
+    width: 430px;
+    /* width: 500px; */
+}
+.col-md-6.mt-5{
+    background-color:   lightpink;
+    width: 430px;
+}
+.col-md-6.mt-5.mx-4.bg-delivery.p-4.col-three.border.border-dark.rounded {
+    background-color: rgb(158, 137, 137);
+}
+.container{
+    overflow: hidden;
+    /* margin: 0 1rem; */
+}
+p{
+    font-size: 20px;
+   
+    color: darkslategray;
+    font-weight: bold;
+} 
+button,input{
+    box-shadow: none !important;
 }
 
+.col-md-6.mt-5.mx-4.p-4.col-four.border.border-dark.rounded {
+    background-color: firebrick;
+}
