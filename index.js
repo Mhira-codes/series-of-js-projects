@@ -56,3 +56,29 @@ function lowerCounter(){
     countNum.innerText= Count;
 
 }
+// IMAGE SLIDER
+let imageSlider = document.getElementById("slider")
+let image =""
+image[0].src = 'img./mark-stoop-JAUFHzqZPd0-unsplash.jpg'
+image[1].src = 'img./deepak-nautiyal-Nbv7PkL_rvI-unsplash.jpg'
+image[2].src = 'img./andy-holmes-7FkBzm8sSzk-unsplash.jpg'
+image[3].src ='img./vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg'
+image[4].src='img./ray-hennessy-xUUZcpQlqpM-unsplash (1).jpg'
+image[5].src ='img./david-clode-7_TTPznVIQI-unsplash.jpg'
+
+function changeImage(){
+    for (  i=0; i< image.length; i++){
+
+    }
+}
+// FILTER SHOP
+let animals = [
+    "hennessey", "tiger" , "koala", "snake", "lizard","turle","parrot","dove" ]
+    let Animals =document.getElementById("one")
+    function All(){
+for (  i = 0; i< animals.length; i++){
+    Animals.textContent +=animals[i]
+}
+  
+
+    }

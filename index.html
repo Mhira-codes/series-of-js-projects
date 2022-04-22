@@ -7,54 +7,164 @@
     <title>Js Projects</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 
   
- <div class="main container mt-5"  >
-     <div class="row">
+ <div class="main container mt-5 my-5"  >
+     <div class="row mx-5 my-5">
          <div   id="contain" class="col-md-6 col-one d-flex align-items-center justify-content-center mt-5  border border-dark rounded mx-4  p-4">
                    <!-- Background Change -->
             <div class=" text-center" >
-                <button onclick="changeBackground()" class="btn btn-outline-light  " >Click Here to Change Background</button>
+                <button onclick="changeBackground()" class="btn btn-outline-light" >Click Here to Change Background</button>
             </div>
          </div>
 
-         <div class="col-md-6 mt-5 mx-4 p-4  col-two border border-success rounded ">
+         
              <!-- Quote Generator -->
-             <div id="contain1" class=" text-center">
-                <div class="quotes">
-                <button onclick="generateQuotes()" class="mt-4 mx-5 btn btn-danger mb-2 ">Generate Quotes</button>
-                <p id="Quotes"> </p><hr id="box-bottom " class="mx-5 px-3 h-30">
+             <div class="col-md-6 mt-5 mx-4 p-4  col-two  d-flex align-items-center justify-content-center border border-success rounded">
+             <div id="contain1" class="text-center">
+                <div class="quotes text-center">
+                <button onclick="generateQuotes()" class="btn btn-danger mb-3">Generate Quotes</button>
+                <p id="Quotes"> </p>
              </div>
             </div>
          </div>
+    
+         
+  
+        <!-- Message Delivery -->
+  <div class="col-md-6  mt-5 mx-4 bg-delivery p-4  col-three border border-dark rounded">
+        <div class="contain2 text-center">
+             <div class="message-box">
+                 <h2>Deliver A Message</h2>
+                 <input type="text" id="textinput" class="form-control mb-3">
+                 <button type="submit" value="SUBMIT" id="btn" onclick="getText()" class="btn btn-dark">SUBMIT</button>
+                 <p class="mt-2">Previous Message Delivered</p>
+                 <p  id="message" class="mt-3 text-uppercase text-light fst-italic lh-1"></p>
+             </div>
+       </div> 
+ </div>
 
-         <div class="col-md-6  mt-5 mx-4 bg-delivery p-4  col-three border border-dark rounded">
-                <!-- Message Delivery -->
-<div class="contain2 text-center ">
-    <div class="message-box">
-<h2>Deliver A Message</h2>
-<input type="text" id="textinput" class="form-control mb-2">
-<button type="submit" value="SUBMIT" id="btn" onclick="getText()" class="btn btn-dark">SUBMIT</button>
-<p id="message" class="mt-3">Previous Message Delivered</p>
-    </div>
-</div> 
-         </div>
-
-         <div class="col-md-6 mt-5 mx-4 p-4 col-four border border-dark rounded">
+   
               <!-- Counter -->
- 
+    <div class="col-md-6 mt-5 mx-4 p-4 col-four border border-dark rounded">
       <div class="sub text-center">
         <h2 class="mx-1 px-4">COUNTER</h2>
         <h1 id="count" class="mx-5 px-5" >0</h1>
-<button class="counter-button btn btn-light text-capitalize " onclick="lowerCounter()">Lower Counter</button>
-<button class="counter-button btn btn-light text-capitalize  " onclick="upperCounter()" >Upper Counter</button>
-   </div>
-         </div>
-     </div>
+        <button class="counter-button btn btn-light text-capitalize" onclick="lowerCounter()">Lower Counter</button>
+        <button class="counter-button btn btn-light text-capitalize" onclick="upperCounter()" >Upper Counter</button>
+        </div>
+    </div>
+    
+    <!-- Filter Project -->
+    <div class="col-md-12 d-block mt-5 mx-4 p-4" >
+      <div class="text-center ">
+         <h1 class="text-center shop">My Shop</h1>
+        <button onclick="All()"  id="one"class="btn btn-outline-secondary  m-2 text-dark b">ALL</button>
+        <button  id="two"  class="btn btn-outline-secondary m-2  text-dark">MAMMALS</button>
+        <button   id="three"class="btn btn-outline-secondary m-2  text-dark">BIRDS</button>
+        <button   id="four"class="btn btn-outline-secondary m-2  text-dark">REPTILE</button>
+        <div >
+         
+          <input type="text" class="form-control w-100" placeholder="Enter animal..."  >
+        </div>
       
+    </div>
+    
+     <div class="row mt-3">
+       <div class="col-md-3 ">
+       <div class="card mb-3 bg-dark mx-1" style="width: 13rem; ">
+        <img  src="./img/andy-holmes-7FkBzm8sSzk-unsplash.jpg" class="card-img-top" alt="...">
+        <i class="fas fa-shopping-cart"></i>
+        <div class="card-body">
+          <p class="card-text text-light">Get your koala     <span class="text-dark px-2 rounded-pill bg-white mx-2" > $300</span></p>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mb-3 bg-dark mx-1" style="width: 13rem;">
+         <img  src="./img/craig-pattenaude-o5LcQ9GkT6A-unsplash.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <p class="card-text text-light">Get your turtle  <span class="text-dark px-2 rounded-pill bg-white mx-2" > $700</span></p>
+         </div>
+         </div>
+       </div>
+
+       <div class="col-md-3">
+        <div class="card mb-3 bg-dark mx-1" style="width: 13rem;">
+         <img   src="./img/ray-hennessy-xUUZcpQlqpM-unsplash (1).jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <p class="card-text text-light"> Hennessy  <span class="text-dark px-2 rounded-pill bg-white mx-4" > $290</span></p>
+         </div>
+         </div>
+       </div>
+
+       <div class="col-md-3 ">
+        <div class="card mb-3 bg-dark mx-1" style="width: 13rem;">
+         <img    src="./img/david-clode-7_TTPznVIQI-unsplash.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <p class="card-text text-light">Get your koala    <span class="text-dark px-2 rounded-pill bg-white mx-2" > $200</span></p>
+         </div>
+         </div>
+       </div>
+       <div class="col-md-3 ">
+        <div class="card mb-3 bg-dark mx-1" style="width: 13rem;">
+         <img    src="./img/mark-stoop-JAUFHzqZPd0-unsplash.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <p class="card-text text-light">Lizard    <span class="text-dark px-2 rounded-pill bg-white mx-4" > $450</span></p>
+         </div>
+         </div>
+       </div>
+       <div class="col-md-3 ">
+        <div class="card mb-3 bg-dark mx-1" style="width: 13rem;">
+         <img  src="./img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <p class="card-text text-light">Get your koala    <span class="text-dark px-2 rounded-pill bg-white mx-2" > $230</span></p>
+         </div>
+         </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card mb-3 bg-dark " style="width: 13rem;">
+         <img   src="./img/marius-masalar-LN_gdbQtzvk-unsplash.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <p class="card-text text-light"> Snake    <span class="text-dark px-2 rounded-pill bg-white mx-4" > $100</span></p>
+         </div>
+         </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card mb-3 bg-dark " style="width: 13rem;">
+         <img  src="./img/birger-strahl-4WzdySGib64-unsplash.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <p class="card-text text-light">Get your TIger  <span class="text-dark px-2 rounded-pill bg-white mx-2" > $220</span></p>
+         </div>
+         </div>
+       </div>
+     </div>
+    
+       
+     
+      </div>
+    
+</div>
+    </div>
+      <!-- Image slider 
+      <div class="col-md-6 p-4 mx-4  mt-5 col-five" >
+          <div class="image-silder-container   text-center" onclick="changeImage()" id="slider" >
+            <img src="./img/david-clode-7_TTPznVIQI-unsplash.jpg" alt="" class="">
+              
+          </div>
+      </div>-->
+      <!-- testimonial slider 
+      <div class="col-md-6 mt-5 mx-4  p-4">
+          <div class="text-center"> 
+               <img src="./img/annie-spratt-wuc-KEIBrdE-unsplash.jpg" alt="--" ></div>
+        
+      </div>-->
+  
 </div>
 
 

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 /* *{ 
     margin: 0;
     padding: 0;
@@ -140,21 +141,28 @@ font-size: 25px;
 .col-md-6.col-one.d-flex.align-items-center.justify-content-center.mt-5 {
     background-color: sienna;
     min-height: 30vh;
-    width: 430px;
-    /* width: 500px; */
+  
+    width: 430px; 
 }
-.col-md-6.mt-5{
+.col-md-6.mt-5.mx-4.p-4.col-two.d-flex.align-items-center.justify-content-center.border.border-success.rounded {
     background-color:   lightpink;
-    width: 430px;
+    min-height: 30vh;
+    width: 430px; 
+   
 }
 .col-md-6.mt-5.mx-4.bg-delivery.p-4.col-three.border.border-dark.rounded {
     background-color: rgb(158, 137, 137);
+    width: 430px; 
+   
 }
 .container{
     overflow: hidden;
     /* margin: 0 1rem; */
 }
-p{
+.col-md-6.mt-5.mx-4.p-4.col-four.border.border-dark.rounded {
+    width: 430px; 
+}
+ .message-box p{
     font-size: 20px;
    
     color: darkslategray;
@@ -166,4 +174,55 @@ button,input{
 
 .col-md-6.mt-5.mx-4.p-4.col-four.border.border-dark.rounded {
     background-color: firebrick;
+}
+img{
+    width: 410px;
+    height: 250px;
+}
+.col-md-6.p-4.mx-4.my-1.mt-5.col-five.border.border-dark.rounded {
+    width: 430px; 
+    background: none;
+}
+.card.mb-3{
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    /* -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+    box-shadow: 10px 10px 5px -6px rgba(56,40,40,0.75);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(56,40,40,0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(56,40,40,0.75);
+    border: none;
+}
+h1.text-center.shop {
+    font-family: 'Square Peg', cursive;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.animal-type input {
+    width: 50px;
+}
+.col-md-12.d-block.mt-5.mx-4.p-4 {
+    background-color: peachpuff;
+}
+/* .cart{ 
+display: none;
+vertical-align: middle;
+transition:width .5s linear;
+color: white;
+
+
+}
+.images:hover .cart{
+    width:10px;
+    display: block;
+
+  
+}*/
+
+img{
+    transition: transform .4s;
+}
+
+img:hover{
+
+    transform: scale(1.1);
 }
