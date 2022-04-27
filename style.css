@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Trirong:wght@300&display=swap');
 /* *{ 
     margin: 0;
     padding: 0;
@@ -203,7 +204,7 @@ h1.text-center.shop {
 .col-md-12.d-block.mt-5.mx-4.p-4 {
     background-color: peachpuff;
 }
-/* .cart{ 
+/*? .cart{ 
 display: none;
 vertical-align: middle;
 transition:width .5s linear;
@@ -216,8 +217,8 @@ color: white;
     display: block;
 
   
-}*/
-
+} ? */
+/** FILTER PROJECT */
 img{
     transition: transform .4s;
 }
@@ -225,4 +226,21 @@ img{
 img:hover{
 
     transform: scale(1.1);
+}
+/* *CALCULATOR */
+
+
+.fourth-row.mx-5 button{
+    width: 70px;
+}
+.col-md-6.mt-5{
+  
+    background-color: lightsteelblue;
+}
+.row.d-flex.align-items-center.justify-content-center{
+    font-family: 'Trirong', serif;
+}
+label{
+    color: darkslategray;
+    font-weight: bolder;
 }
